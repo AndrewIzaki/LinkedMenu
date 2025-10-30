@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Product;
+using Product.Models;
 namespace ProductController.Controllers;
 
 [ApiController]

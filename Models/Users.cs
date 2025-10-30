@@ -1,6 +1,6 @@
-namespace Users
+namespace Users.Models
 {
-    public class user
+    public class User
     {
         public int id {set; get;}
         public string name {set; get;}
