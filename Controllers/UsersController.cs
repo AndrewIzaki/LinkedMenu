@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Users.Models;
+using user.Models;
 
 namespace UsersController.Controllers;
 
@@ -9,9 +9,9 @@ namespace UsersController.Controllers;
 public class UsersController : ControllerBase
 {
     [HttpGet]
-    public user get()
+    public User get()
     {
-        return new user {
+        return new User {
             id= 1, 
             name="John Doe"
         };

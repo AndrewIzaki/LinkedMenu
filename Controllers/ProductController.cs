@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Product.Models;
+using product.Models;
 namespace ProductController.Controllers;
 
 [ApiController]
@@ -7,12 +7,12 @@ namespace ProductController.Controllers;
 public class ProductController : ControllerBase
 {
     [HttpGet]
-    public product get()
+    public Product get()
     {
-        return new product
+        return new Product
         {
             id = 1,
-            names = "Pizza",
+            name = "Pizza",
             price = 19.99f
         };
     }
